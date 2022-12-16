@@ -1,0 +1,48 @@
+.users{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid lightblue;
+    padding: 10px;
+    border-radius: 7px;
+    .container_box{
+        // background-color: red;
+        width: 31vw;
+        min-height: 75vh;
+        .profile_img{
+            width: 38%;
+            height: 23vh;
+            position: relative;
+            margin: 0px auto;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+        .pwd_field,.mail_field{
+            label{
+                margin-bottom: 0.2rem !important;
+            }
+            margin-bottom: 0.2rem !important;
+        }
+        .error_span{
+            color: red;
+            font-size: .8rem;
+        }
+        .btns{
+            padding: 10px;
+            display: flex;
+            column-gap: 10px;
+            *{
+                flex:0 1 100%;
+            }
+        }
+        .fgpwd{
+            color: dodgerblue;
+            a:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}
